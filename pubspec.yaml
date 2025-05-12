@@ -1,0 +1,48 @@
+name: fishfeeder
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Gauge Chart
+  syncfusion_flutter_gauges: ^22.2.9
+
+  # Cupertino Icons font for iOS style icons
+  cupertino_icons: ^1.0.8
+
+  # DateTime Picker
+  flutter_datetime_picker_plus: ^2.0.1
+
+  # SharedPreferences (local data storage)
+  shared_preferences: ^2.2.2
+
+  # HTTP requests
+  http: ^1.2.1
+
+  # Internationalization
+  intl: ^0.18.0
+
+  # Local Notifications
+  flutter_local_notifications: ^17.0.0
+
+  # Timezone support for scheduled notifications
+  timezone: ^0.9.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+
+flutter_icons:
+android: true
+iOS: true
