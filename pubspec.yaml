@@ -34,6 +34,8 @@ dependencies:
 
   # Timezone support for scheduled notifications
   timezone: ^0.9.1
+  firebase_database: ^11.3.5
+  firebase_messaging: ^15.2.5
 
 dev_dependencies:
   flutter_test:
